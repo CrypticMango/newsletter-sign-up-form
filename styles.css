@@ -22,13 +22,14 @@ body {
 	--white: hsl(0, 0%, 100%);
 }
 
-main {
-    padding: 0px 30px 0px 30px;
-}
-
 h1 {
     color: var(--dark-slate-grey);
     text-align: left!important;
+    padding: 0px 20px;
+}
+
+.info, .top-blurb {
+    padding: 0px 20px;
 }
 
 .top-graphic {
