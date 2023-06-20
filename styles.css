@@ -1,26 +1,35 @@
 * {
-    padding: 0;
-    margin: 0 auto;
+	padding: 0;
+	margin: 0 auto;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    min-height: 100vh;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	min-height: 100vh;
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
 }
 
 :root {
-    --tomato: hsl(4. 100%, 67%);
-    --dark-slate-grey: hsl(234, 29%, 20%);
-    --charcoal-grey: hsl(235, 18%, 26%);
-    --grey: hsl(231, 7%, 60%);
-    --white: hsl(0, 0%, 100%);
+	--tomato: hsl(4 100%, 67%);
+	--dark-slate-grey: hsl(234, 29%, 20%);
+	--charcoal-grey: hsl(235, 18%, 26%);
+	--grey: hsl(231, 7%, 60%);
+	--white: hsl(0, 0%, 100%);
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.thank-you-message {
+    display: none;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
