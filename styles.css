@@ -26,21 +26,36 @@ h1 {
     color: var(--dark-slate-grey);
     text-align: left!important;
     padding: 0px 25px 25px 25px;
-	font-size: 42px;
+	font-size: 40px;
 
 }
 
 button {
 	margin: 0px 25px 0px 25px;
-	padding: 20px 65px 20px 65px;
+	padding: 20px 20px 20px 20px;
 	border: 1px solid var(--dark-slate-grey);
 	border-radius: 7px;
+	background-color: var(--dark-slate-grey);
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+	width: 320px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: var(--tomato);
+	border: 1px solid var(--tomato);
 }
 
 input {
 	padding: 20px 145px 20px 5px;
 	border: 1px solid var(--dark-slate-grey);
 	border-radius: 7px;
+}
+
+input:hover {
+	cursor: pointer;
 }
 
 footer {
@@ -76,7 +91,7 @@ footer {
 }
 
 .email-label {
-   padding: 0px 25px 20px 25px;
+   padding: 30px 25px 10px 25px;
    font-size: 12px;
 }
 
