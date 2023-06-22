@@ -32,6 +32,15 @@ h1 {
 
 button {
 	margin: 0px 25px 0px 25px;
+	padding: 20px 65px 20px 65px;
+	border: 1px solid var(--dark-slate-grey);
+	border-radius: 7px;
+}
+
+input {
+	padding: 20px 145px 20px 5px;
+	border: 1px solid var(--dark-slate-grey);
+	border-radius: 7px;
 }
 
 .info, .top-blurb {
