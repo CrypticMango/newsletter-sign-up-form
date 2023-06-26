@@ -36,7 +36,7 @@
 	</head>
 	<body>
 
-    <main>
+    <main id="cover-info">
       <img src="/assets/images/illustration-sign-up-mobile.svg" alt="top-graphic" aria-label="top-graphic" class="top-graphic">
           <!-- Sign-up form start -->
       
@@ -50,23 +50,23 @@
 
           <div class="info"> <img class="more-check" src="/assets/images/icon-list.svg" alt="checkmark" aria-label="checkmark"><p>And much more!</p></div>
       
-          <p class="email-label"><b>Email address</b></p>
+          <p class="email-label"><b>Email address</b> <span class="invalid-message">Valid email required</span></p>
           <div class="text-field">
 			<input
-			  type="text"
+			  type="email"
 			  id="email"
 			  name="email"
 			  placeholder="email@company.com"
 			/>
 		  </div>
       
-          <button>Subscribe to monthly newsletter</button>
+          <button id="send-button">Subscribe to monthly newsletter</button>
       
           <!-- Sign-up form end -->
       
           <!-- Success message start -->
       
-          <div class="thank-you-message">
+          <div class="thank-you-message" id="thank-you-message">
         <img src="/assets/images/icon-success.svg" alt="success-check" aria-label="success-check">
             <h2>Thanks for subscribing!</h2>
             <p>
@@ -92,5 +92,6 @@
 
 			<i class="fa-brands fa-github-alt fa-bounce"></i>
 		</footer>
+		<script src="app.js"></script>
 	</body>
 </html>
