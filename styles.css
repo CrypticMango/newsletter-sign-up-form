@@ -95,6 +95,24 @@ footer {
 
 .thank-you-message {
     display: none;
+	margin-top: 130px;
+}
+
+.thank-you-message img {
+	margin: 20px;
+}
+
+.thank-you-message h2 {
+	font-size: 45px;
+	margin: 20px;
+}
+
+.thank-you-message p {
+	margin: 20px;
+}
+
+.thank-you-message button {
+	margin-top: 50px;
 }
 
 .email-label {
