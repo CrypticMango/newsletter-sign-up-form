@@ -138,3 +138,7 @@ footer {
 	margin: 30px;
 	color: var(--tomato);
 }
+
+@media (min-width: 1440px) {
+	
+}
