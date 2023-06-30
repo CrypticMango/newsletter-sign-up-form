@@ -28,7 +28,7 @@ h1 {
 	font-size: 40px;
 }
 
-button {
+#send-button, #dismiss-button {
 	margin: 0px 25px 0px 25px;
 	padding: 20px 20px 20px 20px;
 	border: 1px solid var(--dark-slate-grey);
@@ -40,7 +40,13 @@ button {
 	width: 320px;
 }
 
-button:hover {
+#send-button:hover {
+	cursor: pointer;
+	background-color: var(--tomato);
+	border: 1px solid var(--tomato);
+}
+
+#dismiss-button:hover {
 	cursor: pointer;
 	background-color: var(--tomato);
 	border: 1px solid var(--tomato);
@@ -55,14 +61,6 @@ input {
 
 input:hover {
 	cursor: pointer;
-}
-
-input:valid {
-	border: 1px solid green;
-}
-
-input:invalid {
-	border: 1px solid red;
 }
 
 footer {

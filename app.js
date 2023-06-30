@@ -9,7 +9,7 @@ function submitEmail() {
 	thanks.style.display = "block";
 }
 
-const dismissButton = document.getElementById("dismiss");
+const dismissButton = document.getElementById("dismiss-button");
 
 dismissButton.addEventListener("click", dismissMessage);
 
@@ -33,8 +33,10 @@ function ValidateEmail(input) {
 	} else {
 		alert("Invalid email address!");
 
-		document.form1.text1.focus();
+		document.input.focus();
 
 		return false;
 	}
 }
+
+ValidateEmail();

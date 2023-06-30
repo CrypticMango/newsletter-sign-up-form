@@ -32,50 +32,100 @@
 			Frontend Mentor | Newsletter sign-up form with success message
 		</title>
 
-		<script src="https://kit.fontawesome.com/b5252524d8.js" crossorigin="anonymous"></script>
+		<script
+			src="https://kit.fontawesome.com/b5252524d8.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
+		<main id="cover-info">
+			<img
+				src="/assets/images/illustration-sign-up-mobile.svg"
+				alt="top-graphic"
+				aria-label="top-graphic"
+				class="top-graphic"
+			/>
 
-    <main id="cover-info">
-      <img src="/assets/images/illustration-sign-up-mobile.svg" alt="top-graphic" aria-label="top-graphic" class="top-graphic">
+			<div class="desktop-pic">
+				<img
+					src="/assets/images/illustration-sign-up-desktop.svg"
+					alt="desktop-graphic"
+					class="desktop-graphic"
+				/>
+			</div>
+			<!-- Sign-up form start -->
 
-	  <div class="desktop-pic"><img src="/assets/images/illustration-sign-up-desktop.svg" alt="desktop-graphic" class="desktop-graphic"></div>
-          <!-- Sign-up form start -->
-      
-          <div class="information">
-			<h1>Stay updated!</h1>
-			<p class="top-blurb">Join 60,000+ product managers receiving monthly updates on:</p>
-			<div class="info"> <img src="/assets/images/icon-list.svg" alt="checkmark" aria-label="checkmark"> <p>Product discovery and building what matters</p></div>
-			<div class="info"> <img src="/assets/images/icon-list.svg" alt="checkmark" aria-label="checkmark"><p>Measuring to ensure updates are a success</p></div>
-			<div class="info"> <img class="more-check" src="/assets/images/icon-list.svg" alt="checkmark" aria-label="checkmark"><p>And much more!</p></div>
-			<p class="email-label"><b>Email address</b> <span class="invalid-message">Valid email required</span></p>
-			<div class="text-field">
+			<div class="information">
+				<h1>Stay updated!</h1>
+				<p class="top-blurb">
+					Join 60,000+ product managers receiving monthly
+					updates on:
+				</p>
+				<div class="info">
+					<img
+						src="/assets/images/icon-list.svg"
+						alt="checkmark"
+						aria-label="checkmark"
+					/>
+					<p>Product discovery and building what matters</p>
+				</div>
+				<div class="info">
+					<img
+						src="/assets/images/icon-list.svg"
+						alt="checkmark"
+						aria-label="checkmark"
+					/>
+					<p>Measuring to ensure updates are a success</p>
+				</div>
+				<div class="info">
+					<img
+						class="more-check"
+						src="/assets/images/icon-list.svg"
+						alt="checkmark"
+						aria-label="checkmark"
+					/>
+					<p>And much more!</p>
+				</div>
+				<p class="email-label">
+					<b>Email address</b>
+					<span class="invalid-message"
+						>Valid email required</span
+					>
+				</p>
+				<div class="text-field">
+					<form action="#">
 						<input
-						  type="email"
-						  id="email"
-						  name="email"
-						  placeholder="email@company.com"
+							type="email"
+							id="email"
+							name="email"
+							placeholder="email@company.com"
 						/>
-					  </div>
-			<button id="send-button">Subscribe to monthly newsletter</button>
-		  </div>
-      
-          <!-- Sign-up form end -->
+						<input
+							type="submit"
+							id="send-button"
+							value="Subscribe to monthly newsletter"
+						/>
+					</form>
+				</div>
+			</div>
+
+			<!-- Sign-up form end -->
 		</main>
-          <!-- Success message start -->
-	<div class="thank-you-message" id="thank-you-message">
-        <img src="/assets/images/icon-success.svg" alt="success-check" aria-label="success-check">
-            <h2>Thanks for subscribing!</h2>
-            <p>
-              A confirmation email has been sent to
-              <b>ash@loremcompany.com</b>. Please open it and click
-              the button inside to confirm your subscription.
-            </p>
-            <button id="dismiss">Dismiss message</button>
-          </div>
-      
-   
-	
+		<!-- Success message start -->
+		<div class="thank-you-message" id="thank-you-message">
+			<img
+				src="/assets/images/icon-success.svg"
+				alt="success-check"
+				aria-label="success-check"
+			/>
+			<h2>Thanks for subscribing!</h2>
+			<p>
+				A confirmation email has been sent to
+				<b>ash@loremcompany.com</b>. Please open it and click
+				the button inside to confirm your subscription.
+			</p>
+			<button id="dismiss-button">Dismiss message</button>
+		</div>
 
 		<!-- Success message end -->
 
@@ -86,7 +136,12 @@
 					href="https://www.frontendmentor.io?ref=challenge"
 					target="_blank"
 					>Frontend Mentor</a
-				> Coded by <a href="https://www.frontendmentor.io/profile/CrypticMango">Lisa</a>
+				>
+				Coded by
+				<a
+					href="https://www.frontendmentor.io/profile/CrypticMango"
+					>Lisa</a
+				>
 			</div>
 
 			<i class="fa-brands fa-github-alt fa-bounce"></i>
