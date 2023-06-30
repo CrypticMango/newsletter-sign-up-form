@@ -22,9 +22,9 @@ body {
 }
 
 h1 {
-    color: var(--dark-slate-grey);
-    text-align: left!important;
-    padding: 0px 25px 25px 25px;
+	color: var(--dark-slate-grey);
+	text-align: left !important;
+	padding: 0px 25px 25px 25px;
 	font-size: 40px;
 }
 
@@ -69,10 +69,11 @@ footer {
 	text-align: center;
 }
 
-.info, .top-blurb {
-    padding: 0px 25px 15px 25px;
+.info,
+.top-blurb {
+	padding: 0px 25px 15px 25px;
 	color: black;
-	display:inline-flex;
+	display: inline-flex;
 }
 
 .info p {
@@ -90,8 +91,8 @@ footer {
 }
 
 .top-graphic {
-   padding-bottom: 30px;
-   display: block;
+	padding-bottom: 30px;
+	display: block;
 }
 
 .desktop-graphic {
@@ -99,7 +100,7 @@ footer {
 }
 
 .thank-you-message {
-    display: none;
+	display: none;
 	margin-top: 130px;
 }
 
@@ -121,8 +122,8 @@ footer {
 }
 
 .email-label {
-   padding: 30px 25px 10px 25px;
-   font-size: 12px;
+	padding: 30px 25px 10px 25px;
+	font-size: 12px;
 }
 
 .text-field {
@@ -148,7 +149,7 @@ footer {
 	body {
 		background-color: var(--charcoal-grey);
 	}
-	
+
 	main {
 		display: flex;
 		flex-direction: row-reverse;
@@ -157,8 +158,8 @@ footer {
 		background-color: var(--white);
 		padding: 20px;
 		border-radius: 25px;
-		}
-	
+	}
+
 	h1 {
 		font-size: 55px;
 		margin-top: 75px;
@@ -177,9 +178,9 @@ footer {
 	}
 
 	button {
-		width: 374px;;
+		width: 374px;
 	}
-	
+
 	.top-graphic {
 		display: none;
 	}
@@ -191,8 +192,33 @@ footer {
 	.top-blurb {
 		padding-right: 60px;
 	}
+	.attribution {
+		font-size: 17px;
+	}
 
-	.attribution a{
+	.attribution a {
 		color: white;
+	}
+
+	.thank-you-message {
+		background-color: white;
+		width: 400px;
+		padding: 50px 30px 50px 30px;
+		border-radius: 30px;
+		margin-top: 250px;
+	}
+
+	.thank-you-message button {
+		margin: 0 auto;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.thank-you-message h2 {
+		margin-top: 0px;
+	}
+
+	.thank-you-message img {
+		margin-top: 0px;
 	}
 }
