@@ -91,6 +91,11 @@ footer {
 
 .top-graphic {
    padding-bottom: 30px;
+   display: block;
+}
+
+.desktop-graphic {
+	display: none;
 }
 
 .thank-you-message {
@@ -140,5 +145,57 @@ footer {
 }
 
 @media (min-width: 1440px) {
+	body {
+		background-color: var(--charcoal-grey);
+	}
 	
+	main {
+		display: flex;
+		flex-direction: row-reverse;
+		max-width: 850px;
+		margin-top: 150px;
+		background-color: var(--white);
+		padding: 20px;
+		border-radius: 25px;
+		}
+	
+	h1 {
+		font-size: 55px;
+		margin-top: 75px;
+	}
+
+	input {
+		padding-right: 160px;
+	}
+
+	footer {
+		color: white;
+	}
+
+	footer a:visited {
+		color: white;
+	}
+
+	button {
+		width: 374px;;
+	}
+	
+	.top-graphic {
+		display: none;
+	}
+
+	.desktop-graphic {
+		display: block;
+	}
+
+	.top-blurb {
+		padding-right: 60px;
+	}
+
+	.attribution a{
+		color: white;
+	}
+
+
+
 }
