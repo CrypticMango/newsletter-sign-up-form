@@ -28,8 +28,9 @@ h1 {
 	font-size: 40px;
 }
 
-#send-button, #dismiss-button {
-	margin: 0px 25px 0px 25px;
+#send-button,
+#dismiss-button {
+	margin: 20px 0px 0px 0px;
 	padding: 20px 20px 20px 20px;
 	border: 1px solid var(--dark-slate-grey);
 	border-radius: 7px;
@@ -38,6 +39,10 @@ h1 {
 	font-size: 16px;
 	font-weight: 700;
 	width: 320px;
+}
+
+#dismiss-button {
+	margin-left: 20px;
 }
 
 #send-button:hover {
@@ -65,6 +70,17 @@ input:hover {
 
 footer {
 	text-align: center;
+}
+
+.invalid-message {
+	color: var(--tomato);
+	margin-left: 183px;
+	display: none;
+}
+
+input:invalid {
+	background-color: hsla(4, 100%, 67%, 0.555);
+	border: 1px solid red;
 }
 
 .info,
@@ -177,6 +193,10 @@ footer {
 
 	button {
 		width: 374px;
+	}
+
+	#send-button, #dismiss-button {
+		width: 375px;
 	}
 
 	.top-graphic {
